@@ -7,7 +7,7 @@ require 'fileutils'
 require 'aws/s3'
 require 'securerandom'
 require 'logger'
-require 'bcrypt'
+#require 'bcrypt'
 
 
 class Gamification < Sinatra::Application
