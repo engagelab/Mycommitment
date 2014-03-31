@@ -1,19 +1,7 @@
-test:
-  sessions:
-    default:
-      database: gamification
-      hosts:
-        - localhost
-      options:
-        consistency: :strong
-  options:
-    identity_map_enabled: true
-    raise_not_found_error: false
-
 development:
   sessions:
     default:
-      database: gamification
+      database: mycommitment
       hosts:
         - localhost
       options:
